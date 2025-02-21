@@ -1,0 +1,98 @@
+/* Estilização da seção hotsite */
+.imagem-hotsite, body, nav {
+    background-image: url(/img/hotsite/bg.png);
+    background-size: cover;
+}
+
+
+.navbar {
+    padding: 10px 50px;
+    background-color: rgba(255, 255, 255, 0.7); /* Cor de fundo ligeiramente transparente para dar destaque à imagem */
+    backdrop-filter: blur(5px); /* Aplica um desfoque no fundo */
+}
+
+.navbar-logo {
+    max-height: 40px;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #ddd !important;
+}
+
+/* Estilização da Seção Prêmios */
+
+
+.section-premios .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Alinha as imagens ao centro */
+    position: relative;
+  
+}
+.img-esquerda{
+    z-index: 2;
+    padding-right: 150px;
+}
+.img-direita{
+    z-index: 1; 
+    padding-left: 150px;
+}
+
+.premios-img {
+    position: absolute; /* Faz com que as imagens se sobreponham */
+    height: auto;
+   
+}
+
+.premios-img:nth-child(1) {
+    left: 0;
+    top: 0; /* Posiciona a imagem da esquerda no topo */
+    max-width: 60%; /* Ajusta o tamanho da imagem */
+    height: auto;
+}
+
+.premios-img:nth-child(2) {
+    right: 0;
+    top: 50%; /* Coloca a imagem da direita para que ela sobreponha a da esquerda, na parte de baixo */
+    max-width: 75%; /* Ajusta o tamanho da imagem */
+}
+
+
+/* Responsividade */
+@media (max-width: 992px) {
+    .section-premios .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .premios-img {
+        max-width: 70%;
+        margin-bottom: 20px;
+    }
+
+    /* Ajusta a posição para telas menores */
+    .premios-img:nth-child(2) {
+        top: 20%; /* Ajusta o deslocamento para telas pequenas */
+    }
+}
