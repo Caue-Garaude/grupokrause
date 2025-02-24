@@ -6,50 +6,140 @@
     <title>Navbar Centralizada</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-<div class="imagem-hotsite">
-<nav class="navbar navbar-expand-lg bg-light pt-5">
-    <div class="navbar-container">
-        <!-- Logo Esquerda -->
-        <a class="navbar-brand me-4" href="#">
-            <img src="/img/hotsite/Logo1.png" alt="Logo Esquerda" class="navbar-logo">
-        </a>
 
-        <!-- Links Centralizados -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<!-- Primeira Seção com Imagem de Fundo -->
+<header class="imagem-hotsite">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Logo Esquerda -->
+            <a class="navbar-brand" href="#">
+                <img src="/img/hotsite/Logo1.png" alt="Logo Esquerda" class="navbar-logo">
+            </a>
 
-        <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
-            <ul class="navbar-nav nav-links">
-                <li class="nav-item "><a class="nav-link" href="#">Início</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Serviços</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
-            </ul>
+            <!-- Botão Mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links Centralizados -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav nav-links">
+                    <li class="nav-item"><a class="nav-link" href="#">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+                </ul>
+            </div>
+
+            <!-- Logo Direita -->
+            <a class="navbar-brand" href="#">
+                <img src="/img/hotsite/Logo2.png" alt="Logo Direita" class="navbar-logo">
+            </a>
         </div>
+    </nav>
 
-        <!-- Logo Direita -->
-        <a class="navbar-brand ms-4" href="#">
-            <img src="/img/hotsite/Logo2.png" alt="Logo Direita" class="navbar-logo">
-        </a>
-    </div>
-</nav>
+    <!-- Sessão de Prêmios -->
+    <section class="section-premios">
+        <div class="container d-flex align-items-center justify-content-between">
+            <img src="/img/hotsite/titulo.png" alt="Prêmio Esquerda" class="premios-img">
+            <img src="/img/hotsite/premios.png" alt="Prêmio Direita" class="premios-img">
+        </div>
+    </section>
 
-<section class="section-premios">
-    <div class="container d-flex align-items-center justify-content-between position-relative">
-        <!-- Imagem Esquerda -->
-         
-        <img src="/img/hotsite/titulo.png" alt="Prêmio Esquerda" class="premios-img img-esquerda">
-
-        <!-- Imagem Direita -->
-        <img src="/img/hotsite/premios.png" alt="Prêmio Direita" class="premios-img img-direita">
-        
+    <!-- Texto Pequeno abaixo da seção de prêmios -->
+<section class="py-3">
+    <div class="container text-center text-white">
+        <p class="mb-0">Período de participação: 01/03/2025 a 31/12/2025. Sorteio realizado pela loteria federal</p>
+        <p class="bm-0">Certificado de Autorização SPA/ME nº 04.039833/2025</p>
     </div>
 </section>
-</div>
+</header>
+
+<!-- Segunda Seção com Fundo Marrom -->
+<section class="segunda-secao">
+    <div class="container text-center pb-5">
+        <h3 class="fw-bold text-white">Participar é fácil!</h3>
+        <h3 class="fw-bold text-white">Veja como ganhar números da sorte:</h3>
+    </div>
+
+    <div class="container mt-4 mb-4">
+        <div class="row g-4">
+            <div class="col-md-3">
+                <div class="card position-relative p-4 text-center">
+                    <button class=" btn-custom card-btn">+2 Números</button>
+                    <div class="card-body">
+                        <h1 class="titulo-card">Ao aderir o plano</h1>
+                        <p class="texto-card mt-4">Adesão durante o período da campanha: junho à dezembro /24</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card position-relative p-4 text-center">
+                    <button class=" btn-custom card-btn">+2 Números</button>
+                    <div class="card-body">
+                        <h1 class="titulo-card">Ao aderir o plano</h1>
+                        <p class="texto-card mt-4">Adesão durante o período da campanha: junho à dezembro /24</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card position-relative p-4 text-center">
+                    <button class=" btn-custom card-btn">+2 Números</button>
+                    <div class="card-body">
+                        <h1 class="titulo-card">Ao aderir o plano</h1>
+                        <p class="texto-card mt-4">Adesão durante o período da campanha: junho à dezembro /24</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card position-relative p-4 text-center">
+                    <button class=" btn-custom card-btn">+2 Números</button>
+                    <div class="card-body">
+                        <h1 class="titulo-card">Ao aderir o plano</h1>
+                        <p class="texto-card mt-4">Adesão durante o período da campanha: junho à dezembro /24</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center pt-5">
+        <h5 class="fw-bold text-white">Importante!</h5>
+        <h5 class="fw-bold text-white">-Para participar, seu plano precisa estar ativo e com as mensalidades em dia</h5>
+        <h5 class="fw-bold text-white">-Pegou tudo de uma vez? Você ganhara números da sorte de junho a dezembro de 2025</h5>
+    </div>
+</section>
+
+<!-- Seção com Fundo Gradiente -->
+<section class="bg-gradient-secao py-5">
+    <div class="container">
+        <h2 class="text-center text-white mb-4">Título da Seção</h2>
+
+        <div class="row align-items-center section-ganhador">
+          
+            <div class="d-flex flex-column align-items-center">
+                <div class="card">
+                    <img src="caminho-da-foto.jpg" alt="Foto" class="card-img-top">
+                </div>
+            </div>
+
+           
+                <div class="d-flex flex-column align-items-center mt-5">
+                    <p><strong>Nome:</strong> João Silva</p>
+                    <p><strong>Idade:</strong> 30 anos</p>
+                    <p><strong>Profissão:</strong> Desenvolvedor Front-End</p>
+                    <p><strong>Cidade:</strong> São Paulo</p>
+
+                     <!-- Botão Grande Amarelo -->
+             <button class="btn-amarelo mt-5 ">Conheça os ganhadores dos sorteios anteriores!</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

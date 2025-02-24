@@ -1,81 +1,133 @@
-/* Estilização da seção hotsite */
-.imagem-hotsite, body, nav {
-    background-image: url(/img/hotsite/bg.png);
-    background-size: cover;
-}
 
 
-.navbar {
-    padding: 10px 50px;
-    background-color: rgba(255, 255, 255, 0.7); /* Cor de fundo ligeiramente transparente para dar destaque à imagem */
-    backdrop-filter: blur(5px); /* Aplica um desfoque no fundo */
+/* 🟢 Primeira Seção com Imagem de Fundo */
+.imagem-hotsite {
+    background-image: url('/img/hotsite/bg.png'); 
+    background-repeat: no-repeat;
 }
 
-.navbar-logo {
-    max-height: 40px;
-}
-
-.navbar-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-.nav-links {
-    display: flex;
-    gap: 20px;
-    color: white;
-}
-
-.nav-link {
-    color: white !important;
-}
-
-.nav-link:hover {
-    color: #ddd !important;
-}
-
-/* Estilização da Seção Prêmios */
-
-
-.section-premios .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Alinha as imagens ao centro */
-    position: relative;
-  
-}
-.img-esquerda{
-    z-index: 2;
-    padding-right: 150px;
-}
-.img-direita{
-    z-index: 1; 
-    padding-left: 150px;
-}
 
 .premios-img {
-    position: absolute; /* Faz com que as imagens se sobreponham */
-    height: auto;
+    max-width: 50%; /* Ajuste do tamanho das imagens */
+    height: 100%;
+}
+
+/* Imagem da Direita um Pouco por Baixo da Esquerda */
+.premios-img:nth-child(2) {
+    position: relative;
+    max-width: 65%;
+  
+}
+
+/* Navbar Estilizado Dentro da Imagem */
+.navbar {
+    background: transparent !important;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+/* Estilo dos Links do Navbar */
+.navbar-nav .nav-link {
+    font-weight: bold;
+    color: white !important;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFD700 !important; /* Dourado ao passar o mouse */
+}
+
+/* 🟤 Segunda Seção com Fundo Marrom */
+.segunda-secao {
+    background: linear-gradient(to bottom, #d99572, #bd6a3e);
+    padding: 50px 0; /* Espaçamento interno para não ficar colado */
+}
+
+/* Cards */
+.card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Botão no topo do Card */
+.card-btn {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #007bff;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    
+}
+.btn-custom {
+    background: linear-gradient(to bottom, #FFD700, #E6AC00); /* Gradiente de amarelo claro para escuro */
+    border: none;
+    border-radius: 25px; /* Bordas arredondadas */
+    padding: 15px 20px; /* Espaçamento interno */
+   
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    color: #b35c2f;
+}
+
+.btn-custom:hover {
+    background: linear-gradient(to bottom, #E6AC00, #FFD700); /* Inverte o gradiente no hover */
    
 }
 
-.premios-img:nth-child(1) {
-    left: 0;
-    top: 0; /* Posiciona a imagem da esquerda no topo */
-    max-width: 60%; /* Ajusta o tamanho da imagem */
-    height: auto;
+.titulo-card {
+    font-weight: bold;
+    color: #b35c2f;
+}
+.texto-card{
+    color: #b66439;
+    font-family: 'Poppins', sans-serif;
+}
+/* Fundo Gradiente da Seção */
+.bg-gradient-secao {
+    background: linear-gradient(to bottom, #d54652, #d54652);
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-.premios-img:nth-child(2) {
-    right: 0;
-    top: 50%; /* Coloca a imagem da direita para que ela sobreponha a da esquerda, na parte de baixo */
-    max-width: 75%; /* Ajusta o tamanho da imagem */
+
+/* Estilo do Card com Foto */
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Botão Grande Amarelo */
+.btn-amarelo {
+    background: linear-gradient(to bottom, #FFD700, #E6AC00); /* Gradiente de amarelo claro para escuro */
+    border: none;
+    border-radius: 25px; /* Bordas arredondadas */
+    padding: 15px 20px; /* Espaçamento interno */
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    color: #b35c2f;
+}
+
+.btn-amarelo:hover {
+    background: linear-gradient(to bottom, #E6AC00, #FFD700); /* Inverte o gradiente no hover */
+   
 }
 
 
@@ -89,10 +141,19 @@
     .premios-img {
         max-width: 70%;
         margin-bottom: 20px;
+        margin-top: 80px;
+    }
+    .section-premios .container {
+        flex-direction: column;
+        text-align: center;
     }
 
-    /* Ajusta a posição para telas menores */
+    .premios-img {
+        max-width: 70%;
+        margin-bottom: 20px;
+    }
+
     .premios-img:nth-child(2) {
-        top: 20%; /* Ajusta o deslocamento para telas pequenas */
+        margin-top: 10px; /* Ajuste menor no mobile */
     }
 }
