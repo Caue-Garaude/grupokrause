@@ -145,7 +145,7 @@
     }
 
     .premios-img {
-        max-width: 100%;
+        max-width: 80%;
         margin-bottom: 20px;
         margin-top: 80px;
     }
@@ -162,6 +162,6 @@
     .premios-img:nth-child(2) {
         margin-top: 10px; /* Ajuste menor no mobile */
         right: 0%;
-        max-width: 100%;
+        max-width: 80%;
     }
 }
