@@ -8,15 +8,18 @@
 
 
 .premios-img {
-    max-width: 50%; /* Ajuste do tamanho das imagens */
+    max-width: 55%; /* Ajuste do tamanho das imagens */
     height: 100%;
+    right: 15%;
 }
+
 
 /* Imagem da Direita um Pouco por Baixo da Esquerda */
 .premios-img:nth-child(2) {
     position: relative;
     max-width: 65%;
-  
+    right: 14%;
+
 }
 
 /* Navbar Estilizado Dentro da Imagem */
@@ -47,8 +50,11 @@
 
 /* 🟤 Segunda Seção com Fundo Marrom */
 .segunda-secao {
-    background: linear-gradient(to bottom, #d99572, #bd6a3e);
+    background: linear-gradient(to bottom, #9bb94b, rgb(119, 120, 123));
     padding: 50px 0; /* Espaçamento interno para não ficar colado */
+}
+.bg-vermelho-rosa{
+    background: linear-gradient(to bottom, #d64a55, #efa09c);
 }
 
 /* Cards */
@@ -139,7 +145,7 @@
     }
 
     .premios-img {
-        max-width: 70%;
+        max-width: 100%;
         margin-bottom: 20px;
         margin-top: 80px;
     }
@@ -149,11 +155,13 @@
     }
 
     .premios-img {
-        max-width: 70%;
+        max-width: 100%;
         margin-bottom: 20px;
     }
 
     .premios-img:nth-child(2) {
         margin-top: 10px; /* Ajuste menor no mobile */
+        right: 0%;
+        max-width: 100%;
     }
 }
