@@ -77,6 +77,19 @@
     border: none;
     
 }
+.btn-custom2{
+    background: linear-gradient(to bottom, #FFD700, #E6AC00); /* Gradiente de amarelo claro para escuro */
+    border: none;
+    border-radius: 25px; /* Bordas arredondadas */
+    padding: 25px 40px; /* Espaçamento interno */
+   
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    color: #b35c2f;
+}
+
 .btn-custom {
     background: linear-gradient(to bottom, #FFD700, #E6AC00); /* Gradiente de amarelo claro para escuro */
     border: none;
@@ -88,6 +101,10 @@
     transition: all 0.3s ease;
     font-weight: bold;
     color: #b35c2f;
+}
+.btn-custom2:hover {
+    background: linear-gradient(to bottom, #E6AC00, #FFD700); /* Inverte o gradiente no hover */
+   
 }
 
 .btn-custom:hover {
@@ -134,6 +151,15 @@
 .btn-amarelo:hover {
     background: linear-gradient(to bottom, #E6AC00, #FFD700); /* Inverte o gradiente no hover */
    
+}
+/* Fundo com Imagem */
+/* Fundo com Imagem */
+.section-premios2 {
+    background-image: url('/img/hotsite/bg.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
 }
 
 
