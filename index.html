@@ -29,10 +29,10 @@
             <!-- Links Centralizados -->
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav nav-links">
-                    <li class="nav-item"><a class="nav-link" href="#">Início</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Serviços</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#como-funciona">COMO FUNCIONA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#premios">PRÊMIOS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ganhadores">GANHADORES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">REGULAMENTO</a></li>
                 </ul>
             </div>
 
@@ -61,7 +61,7 @@
 </header>
 
 <!-- Segunda Seção com Fundo Marrom -->
-<section class="segunda-secao">
+<section class="segunda-secao" id="como-funciona">
     <div class="container text-center pb-5">
         <h3 class="fw-bold text-white">Participar é fácil!</h3>
         <h3 class="fw-bold text-white">Veja como ganhar números da sorte:</h3>
@@ -105,7 +105,7 @@
 
 
 <!-- Seção com Fundo Gradiente -->
-<section class="bg-vermelho-rosa py-5">
+<section class="bg-vermelho-rosa py-3" id="ganhadores">
     <div class="container">
         <h2 class="text-center text-white mb-4">Confira o ganhador do mês!</h2>
 
@@ -121,55 +121,64 @@
             </div>
 
            
-                <div class="d-flex flex-column align-items-center mt-5 text-white">
-                    <p><strong>Cléber castro da silva</strong></p>
-                    <p><strong>Premio:</strong> Moto Biz</p>
-                    <p><strong>Cidade:</strong> São Paulo</p>
-                    <p><strong>Sorteio:</strong> 0254</p>
-                    <p><strong>Data:</strong> 01/01/2025</p>
-                    <p><strong>Número da sorte:</strong>0123456</p>
+                
+            <div class="d-flex flex-column align-items-center mt-3 text-white">
+                <p class="mb-1 fs-4"><strong>Cléber castro da silva</strong></p>
+                <p class="mb-1 fs-5"><strong>Premio:</strong> Moto Biz</p>
+                <p class="mb-1 fs-5"><strong>Cidade:</strong> São Paulo</p>
+                <p class="mb-1 fs-5"><strong>Sorteio:</strong> 0254</p>
+                <p class="mb-1 fs-5"><strong>Data:</strong> 01/01/2025</p>
+                <p class="mb-1 fs-5"><strong>Número da sorte:</strong> 0123456</p>
 
                      <!-- Botão Grande Amarelo -->
-             <button class="btn-amarelo mt-5 ">Conheça os ganhadores dos sorteios anteriores!</button>
+             <button class="btn-amarelo mt-3 ">Conheça os ganhadores dos sorteios anteriores!</button>
             </div>
         </div>
     </div>
 </section>
 
 <!-- Seção de Prêmios -->
-<section class="section-premios2 d-flex justify-content-center text-center py-5">
+<section class="section-premios2 py-5" id="premios">
     <div class="container position-relative">
-        <!-- Imagem de Fundo Transparente -->
-        <img src="/img/hotsite/premios.png" class="position-absolute top-50 start-50 translate-middle img-fluid opacity-25 w-75" alt="Imagem Fundo">
-
-        <!-- Conteúdo Centralizado e Mais Largo -->
-        <div class="bg-danger text-white rounded p-4 shadow-lg position-relative mx-auto w-75 mt-n5">
-            <!-- Título -->
-            <h2 class="fw-bold mb-3">PRÊMIOS</h2>
-
-            <!-- Divisão em 2 colunas -->
-            <div class="row">
-                <!-- Coluna de Descrição do Prêmio -->
-                <div class="col-md-6 mb-3">
-                    <h4 class="fw-bold text-warning">Descrição do Prêmio</h4> <!-- Título da coluna -->
-                    <div class="bg-warning text-dark fw-bold py-2 px-3 rounded mb-2">Moto Honda Biz 0km</div>
-                    <div class="bg-warning text-dark fw-bold py-2 px-3 rounded mb-2">Viagem para Fernando de Noronha</div>
-                    <div class="bg-warning text-dark fw-bold py-2 px-3 rounded">R$ 10.000 em dinheiro</div>
+        <div class="row align-items-center">
+            <!-- Container das Imagens -->
+            <div class="col-lg-6 d-flex justify-content-center pt-lg-5">
+                <div class="position-relative d-inline-block">
+                    <!-- Imagem Sobreposta (Título) -->
+                    <img src="/img/hotsite/vida premiada.png" class="img-fluid w-75 position-absolute start-50 translate-middle-x" style="top: -10px;" alt="Título Prêmio">
+                    
+                    <!-- Imagem Principal -->
+                    <img src="/img/hotsite/premios.png" class="img-fluid w-100 pb-3" alt="Imagem Fundo">
                 </div>
+            </div>
 
-                <!-- Coluna de Data do Sorteio -->
-                <div class="col-md-6 mb-3">
-                    <h4 class="fw-bold text-white">Data do Sorteio</h4> <!-- Título da coluna -->
-                    <div class="bg-white text-dark fw-bold py-2 px-3 rounded mb-2">01/03/2025</div>
-                    <div class="bg-white text-dark fw-bold py-2 px-3 rounded mb-2">15/06/2025</div>
-                    <div class="bg-white text-dark fw-bold py-2 px-3 rounded">30/09/2025</div>
+            <!-- Conteúdo Alinhado à Direita -->
+            <div class="col-lg-6">
+                <div class="row text-center">
+                    <!-- Coluna de Descrição do Prêmio -->
+                    <div class="col-12 col-md-6">
+                        <h4 class="fw-bold text-warning">Descrição do Prêmio</h4>
+                        <div class="bg-warning text-dark fw-bold py-2 px-4 rounded">Televisor AOC Smart 43"</div>
+                        <div class="bg-warning text-dark fw-bold py-2 px-4 rounded mt-2">Smartphone Samsung Galaxy A55</div>
+                        <div class="bg-warning text-dark fw-bold py-2 px-4 rounded mt-2">Geladeira Consul Frost Free 340L</div>
+                        <div class="bg-warning text-dark fw-bold py-2 px-4 rounded mt-2">Notebook Lenovo Core i3 4GB</div>
+                    </div>
+
+                    <!-- Coluna de Data do Sorteio -->
+                    <div class="col-12 col-md-6 mt-4 mt-md-0">
+                        <h4 class="fw-bold text-white">Data do Sorteio</h4>
+                        <div class="bg-white text-dark fw-bold py-2 px-4 rounded">12/04/2025</div>
+                        <div class="bg-white text-dark fw-bold py-2 px-4 rounded mt-2">10/05/2025</div>
+                        <div class="bg-white text-dark fw-bold py-2 px-4 rounded mt-2">14/06/2025</div>
+                        <div class="bg-white text-dark fw-bold py-2 px-4 rounded mt-2">12/07/2025</div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Botão Fale Conosco mais para baixo -->
-        <div class="position-absolute bottom-0 end-0 m-4">
-            <a href="https://wa.me/seunumerodetelefone" class="btn btn-light btn-lg d-flex align-items-center justify-content-center fw-bold shadow">
+        <!-- Botão Fale Conosco corrigido -->
+        <div class="d-flex justify-content-end mt-5">
+            <a href="https://wa.me/seunumerodotelefone" class="btn btn-light btn-lg d-flex align-items-center justify-content-center fw-bold shadow">
                 <img src="/img/hotsite/WhatsApp.png" alt="WhatsApp" class="me-2" width="30"> Fale Conosco
             </a>
         </div>
@@ -177,185 +186,104 @@
 </section>
 
 <!-- Seção FAQ -->
-<section class="faq-section py-5 bg-white">
+<section class="faq-section py-5 bg-white" id="faq">
     <div class="container">
-        <h2 class="text-center text-danger fw-bold mb-4">FAQ</h2>
+        <h2 class="text-center text-success fw-bold mb-4">FAQ</h2>
         <div class="accordion" id="faqAccordion">
 
-            <!-- Pergunta 1 -->
-            <div class="accordion-item border-0">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed text-primary fw-bold bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
-                        Quem pode participar da promoção?
-                    </button>
-                </h2>
-                <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                    <div class="accordion-body text-primary">
-                        Associados que pagarem suas mensalidades em dia.
-                    </div>
-                    <div class="accordion-body text-primary">
-                        Novos associados que aderirem ao Plano GK durante a promoção.
-                    </div>
-                    <div class="accordion-body text-primary">
-                        Todos os planos funerários da Assiste Bem Planos e Seguros e Krause Assistencial Ltda, exceto o Serviço Planejado e os planos Empresarial e Empresarial Krause.
-                    </div>
-                </div>
-            </div>
+            <!-- Perguntas Frequentes -->
+            <script>
+                const faqs = [
+                    {
+                        question: "Quem pode participar da promoção?",
+                        answers: [
+                            "Associados que pagarem suas mensalidades em dia.",
+                            "Novos associados que aderirem ao Plano GK durante a promoção.",
+                            "Todos os planos funerários da Assiste Bem Planos e Seguros e Krause Assistencial Ltda, exceto o Serviço Planejado e os planos Empresarial e Empresarial Krause."
+                        ]
+                    },
+                    {
+                        question: "Quem não pode participar da promoção?",
+                        answers: [
+                            "Clientes da Funerária Krause e do Memorial Krause.",
+                            "Funcionários e diretores do Grupo Krause.",
+                            "Funcionários das empresas fornecedoras envolvidas na promoção."
+                        ]
+                    },
+                    {
+                        question: "Preciso fazer algum tipo de inscrição para concorrer?",
+                        answers: ["Não, basta ter um plano funerário ativo e pagá-lo em dia."]
+                    },
+                    {
+                        question: "Qual é o período da campanha?",
+                        answers: ["De 01/03/2025 a 31/12/2025."]
+                    },
+                    {
+                        question: "Quais são os prêmios?",
+                        answers: ["Serão 10 prêmios no total: 1 motocicleta, 1 ar-condicionado, 2 TVs, 2 smartphones, 2 geladeiras e 2 notebooks."]
+                    },
+                    {
+                        question: "Quais são as datas dos sorteios?",
+                        answers: ["Os sorteios mensais vão acontecer nas seguintes datas: 12/04/2025, 10/05/2025, 14/06/2025, 12/07/2025, 09/08/2025, 13/09/2025, 11/10/2025, 08/11/2025, 13/12/2025 e 11/01/2026."]
+                    },
+                    {
+                        question: "Como posso acumular números da sorte?",
+                        answers: [
+                            "Pagamento em dia: 1 código da sorte.",
+                            "Novos associados no Plano GK: 1 código da sorte no mês da contratação.",
+                            "Indicação de novos associados: 1 código da sorte por indicação efetivada."
+                        ]
+                    },
+                    {
+                        question: "Como sei quantos números da sorte eu tenho?",
+                        answers: ["Verifique no site <a href='https://grupokrause.com.br/'>Grupo Krause</a> até 10 dias antes de cada sorteio."]
+                    },
+                    {
+                        question: "Quando e como os ganhadores serão notificados?",
+                        answers: ["Os nomes e códigos contemplados serão divulgados no site <a href='https://grupokrause.com.br/'>Grupo Krause</a> após a confirmação."]
+                    },
+                    {
+                        question: "Se eu ganhar, como vou receber o prêmio?",
+                        answers: [
+                            "O prêmio será entregue em até 30 dias após a data de apuração.",
+                            "A empresa irá localizar o contemplado através dos meios de contato de cadastro."
+                        ]
+                    },
+                    {
+                        question: "O que pode me desclassificar da promoção?",
+                        answers: [
+                            "Estar inadimplente em qualquer obrigação financeira na data de apuração do sorteio.",
+                            "Estar com o plano cancelado na data do sorteio."
+                        ]
+                    }
+                ];
 
-            <!-- Pergunta 2 -->
-            <div class="accordion-item border-0">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed text-primary fw-bold bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
-                        Quem não pode participar da promoção?
-                    </button>
-                </h2>
-                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                    <div class="accordion-body text-primary">
-                        Clientes da Funerária Krause e do Memorial Krause.
-                    </div>
-                    <div class="accordion-body text-primary">
-                        Funcionários e diretores do Grupo Krause.
-                    </div>
-                    <div class="accordion-body text-primary">
-                    Funcionários das empresas fornecedoras envolvidas na promoção.
-                    </div>
-                </div>
-            </div>
-
-            <!-- Pergunta 3 -->
-            <div class="accordion-item border-0">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed text-primary fw-bold bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
-                        Preciso fazer algum tipo de inscrição para concorrer?
-                    </button>
-                </h2>
-                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                    <div class="accordion-body text-primary">
-                        Não, basta ter um plano funerário ativo e pagá-lo em dia.
-                    </div>
-                </div>
-            </div>
-
-            <!-- Pergunta 4 -->
-            <div class="accordion-item border-0">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed text-primary fw-bold bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
-                        Qual é o período da campanha?
-                    </button>
-                </h2>
-                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                    <div class="accordion-body text-primary">
-                        De 01/03/2025 a 31/12/2025.
-                    </div>
-                </div>
-            </div>
-            <!-- Pergunta 5 -->
-            <div class="accordion-item border-0">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed text-primary fw-bold bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
-                        Quais são os prêmios?
-                    </button>
-                </h2>
-                <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                    <div class="accordion-body text-primary">
-                        Serão 10 prêmios no total: 1 motocicleta, 1 ar-condicionado, 2 TVs, 2 smartphones, 2 geladeiras e 2 notebooks.
-                    </div>
-                </div>
-            </div>
-            <!-- Pergunta 6 -->
-            <div class="accordion-item border-0">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed text-primary fw-bold bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
-                        Quais são as datas dos sorteios?
-                    </button>
-                </h2>
-                <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                    <div class="accordion-body text-primary">
-                        Os sorteios mensais vão acontecer nas seguintes datas: 12/04/2025, 10/05/2025, 14/06/2025, 12/07/2025, 09/08/2025, 13/09/2025, 11/10/2025, 08/11/2025, 13/12/2025 e 11/01/2026.
-                    </div>
-                </div>
-            </div>
-            <!-- Pergunta 7 -->
-            <div class="accordion-item border-0">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed text-primary fw-bold bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#faq7">
-                        Como posso acumular números da sorte?
-                    </button>
-                </h2>
-                <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                    <div class="accordion-body text-primary">
-                        Pagamento em dia: 1 código da sorte.
-                    </div>
-                    <div class="accordion-body text-primary">
-                        Novos associados no Plano GK: 1 código da sorte no mês da contratação.
-                    </div>
-                    <div class="accordion-body text-primary">
-                        Indicação de novos associados: 1 código da sorte por indicação efetivada.
-                    </div>
-                </div>
-            </div>
-            <!-- Pergunta 8 -->
-            <div class="accordion-item border-0">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed text-primary fw-bold bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#faq8">
-                        Como sei quantos números da sorte eu tenho?
-                    </button>
-                </h2>
-                <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                    <div class="accordion-body text-primary">
-                        Verifique no site <a href="https://grupokrause.com.br/"></a> até 10 dias antes de cada sorteio.
-                    </div>
-                </div>
-            </div>
-            <!-- Pergunta 9 -->
-            <div class="accordion-item border-0">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed text-primary fw-bold bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#faq9">
-                        Quando e como os ganhadores serão notificados?
-                    </button>
-                </h2>
-                <div id="faq9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                    <div class="accordion-body text-primary">
-                        Os nomes e códigos contemplados serão divulgados no site <a href="https://grupokrause.com.br/"></a> após a confirmação.
-                    </div>
-                </div>
-            </div>
-            <!-- Pergunta 10 -->
-            <div class="accordion-item border-0">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed text-primary fw-bold bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#faq10">
-                        Se eu ganhar, como vou receber o prêmio?
-                    </button>
-                </h2>
-                <div id="faq10" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                    <div class="accordion-body text-primary">
-                        O prêmio será entregue em até 30 dias após a data de apuração.
-                    </div>
-                    <div class="accordion-body text-primary">
-                        A empresa irá localizar o contemplado através dos meios de contato de cadastro.
-                    </div>
-                </div>
-            </div>
-            <!-- Pergunta 11 -->
-            <div class="accordion-item border-0">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed text-primary fw-bold bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#faq11">
-                        O que pode me desclassificar da promoção?
-                    </button>
-                </h2>
-                <div id="faq11" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                    <div class="accordion-body text-primary">
-                        Estar inadimplente em qualquer obrigação financeira na data de apuração do sorteio.
-                    </div>
-                    <div class="accordion-body text-primary">
-                        Estar com o plano cancelado na data do sorteio
-                    </div>
-                </div>
-            </div>
+                document.addEventListener("DOMContentLoaded", function () {
+                    const faqContainer = document.getElementById("faqAccordion");
+                    faqs.forEach((faq, index) => {
+                        let faqItem = document.createElement("div");
+                        faqItem.className = "accordion-item border-0";
+                        faqItem.innerHTML = `
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed text-danger fw-bold bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#faq${index}">
+                                    ${faq.question}
+                                </button>
+                            </h2>
+                            <div id="faq${index}" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-secondary">
+                                    ${faq.answers.map(answer => `<p>${answer}</p>`).join('')}
+                                </div>
+                            </div>
+                        `;
+                        faqContainer.appendChild(faqItem);
+                    });
+                });
+            </script>
 
         </div>
     </div>
 </section>
+
 
 <!-- Seção Banner em tela cheia -->
 <section class="container-fluid p-0">

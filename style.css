@@ -152,15 +152,13 @@
     background: linear-gradient(to bottom, #E6AC00, #FFD700); /* Inverte o gradiente no hover */
    
 }
-/* Fundo com Imagem */
-/* Fundo com Imagem */
 .section-premios2 {
     background-image: url('/img/hotsite/bg.png');
     background-size: cover;
-    background-position: center;
-    position: relative;
+    background-position: left center;
     min-height: 100vh;
 }
+
 
 
 /* Responsividade */
