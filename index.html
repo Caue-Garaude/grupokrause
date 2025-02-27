@@ -46,21 +46,14 @@
     <!-- Sessão de Prêmios -->
     <section class="section-premios">
         <div class="container d-flex align-items-center justify-content-between">
-            <img src="/img/hotsite/titulo.png" href="/img/Regulamento Aprovado Vida Premiada Krause - SPA 04.039833 2025.pdf" alt="Prêmio Esquerda" class="premios-img">
+            <img src="/img/hotsite/titulo.png" onclick="window.location.href='/img/Regulamento Aprovado Vida Premiada Krause - SPA 04.039833 2025.pdf';"  alt="Prêmio Esquerda" class="premios-img">
             <img src="/img/hotsite/premios.png" alt="Prêmio Direita" class="premios-img">
         </div>
     </section>
 
-    <!-- Texto Pequeno abaixo da seção de prêmios -->
-<section class="py-3">
-    <div class="container text-center text-white">
-        <p class="mb-0">Período de participação: 01/03/2025 a 31/12/2025. Sorteio realizado pela loteria federal</p>
-        <p class="bm-0">Certificado de Autorização SPA/ME nº 04.039833/2025</p>
-    </div>
-</section>
+
 </header>
 
-<!-- Segunda Seção com Fundo Marrom -->
 <section class="segunda-secao" id="como-funciona">
     <div class="container text-center pb-5">
         <h3 class="fw-bold text-white">Participar é fácil!</h3>
@@ -69,32 +62,33 @@
 
     <div class="container mt-4 mb-4">
         <div class="row g-3 justify-content-center"> <!-- Centralizando os cards -->
-            <div class="col-md-4">
-                <div class="card position-relative p-5 text-center">
-                    <button class=" btn-custom card-btn">1 Código</button>
-                    <div class="card-body">
+            <div class="col-md-4 d-flex">
+                <div class="card position-relative p-5 text-center h-100 d-flex flex-column">
+                    <button class="btn-custom card-btn">1 Código</button>
+                    <div class="card-body flex-grow-1 d-flex align-items-center justify-content-center">
                         <h2 class="titulo-card">Pague sua mensalidade em dia</h2>
-                       </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card position-relative p-5 text-center">
-                    <button class=" btn-custom card-btn">1 Código</button>
-                    <div class="card-body">
+            <div class="col-md-4 d-flex">
+                <div class="card position-relative p-5 text-center h-100 d-flex flex-column">
+                    <button class="btn-custom card-btn">1 Código</button>
+                    <div class="card-body flex-grow-1 d-flex align-items-center justify-content-center">
                         <h2 class="titulo-card">Contrate o plano Assistencial Grupo Krause</h2>
-                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card position-relative p-5 text-center">
-                    <button class=" btn-custom card-btn">1 Código</button>
-                    <div class="card-body">
+            <div class="col-md-4 d-flex">
+                <div class="card position-relative p-5 text-center h-100 d-flex flex-column">
+                    <button class="btn-custom card-btn">1 Código</button>
+                    <div class="card-body flex-grow-1 d-flex align-items-center justify-content-center">
                         <h2 class="titulo-card">Indique de novo associado efetivado</h2>
-                       </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    
     <div class="container text-center pt-5">
         <button class="mb-5 btn-custom2">Meus N° da sorte</button>
         <h5 class="fw-bold text-white">Importante!</h5>
@@ -112,7 +106,7 @@
         <div class="row align-items-center justify-content-center section-ganhador ">
             <div class="col-lg-6">
                 <div class="row text-center">
-            <div class="d-flex flex-column align-items-center col-12 col-md-6 justify-content-center ">
+            <div class="d-flex flex-column align-items-center col-12 col-md-6 justify-content-center pe-lg-5 ">
                 <div class="" style="width: 20rem;"> <!-- Define um tamanho fixo para o card -->
                     <img src="/img/hotsite/premium_photo-1689977968861-9c91dbb16049.jpeg" 
                          alt="Foto" 
@@ -155,34 +149,112 @@
                 </div>
             </div>
 
-            <!-- Conteúdo Alinhado à Direita -->
-            <div class="col-lg-6">
-                <div class="row text-center">
-                    <!-- Coluna de Descrição do Prêmio -->
-                    <div class="col-12 col-md-6">
-                        <h4 class="fw-bold text-warning">Descrição do Prêmio</h4>
-                        <div class="bg-warning text-dark fw-bold py-2 px-4 rounded">Televisor AOC Smart 43"</div>
-                        <div class="bg-warning text-dark fw-bold py-2 px-4 rounded mt-2">Smartphone Samsung Galaxy A55</div>
-                        <div class="bg-warning text-dark fw-bold py-2 px-4 rounded mt-2">Geladeira Consul Frost Free 340L</div>
-                        <div class="bg-warning text-dark fw-bold py-2 px-4 rounded mt-2">Notebook Lenovo Core i3 4GB</div>
-                    </div>
-
-                    <!-- Coluna de Data do Sorteio -->
-                    <div class="col-12 col-md-6 mt-4 mt-md-0">
-                        <h4 class="fw-bold text-white">Data do Sorteio</h4>
-                        <div class="bg-white text-dark fw-bold py-2 px-4 rounded">12/04/2025</div>
-                        <div class="bg-white text-dark fw-bold py-2 px-4 rounded mt-2">10/05/2025</div>
-                        <div class="bg-white text-dark fw-bold py-2 px-4 rounded mt-2">14/06/2025</div>
-                        <div class="bg-white text-dark fw-bold py-2 px-4 rounded mt-2">12/07/2025</div>
-                    </div>
+            <div class="col-lg-6 d-flex flex-column gap-3">
+                <!-- Linha dos títulos -->
+                <div class="d-flex justify-content-between">
+                  <h4 class="fw-bold text-white">PRÊMIOS</h4>
+                  <h4 class="fw-bold text-white">Data do Sorteio</h4>
                 </div>
-            </div>
-        </div>
+              
+                <!-- Bloco de cada par (Prêmio + Data) -->
+                <div class="d-flex gap-3 align-items-stretch">
+                  <div class="flex-grow-1 bg-danger text-white fw-bold py-2 px-2 rounded bg-opacity-50 d-flex align-items-center">
+                    Televisor da marca AOC, modelo Smart 43
+                  </div>
+                  <div class="bg-danger text-white fw-bold py-2 px-5 rounded bg-opacity-50 d-flex align-items-center">
+                    12/04/2025
+                  </div>
+                </div>
+              
+                <div class="d-flex gap-3 align-items-stretch">
+                  <div class="flex-grow-1 text-white fw-bold py-2 px-2 rounded d-flex align-items-center">
+                    Smartphone da marca Samsung, modelo Galaxy A55 128GB
+                  </div>
+                  <div class="text-white fw-bold py-2 px-5 rounded d-flex align-items-center">
+                    10/05/2025
+                  </div>
+                </div>
+              
+                <div class="d-flex gap-3 align-items-stretch">
+                  <div class="flex-grow-1 bg-danger text-white fw-bold py-2 px-2 rounded bg-opacity-50 d-flex align-items-center">
+                    Geladeira da marca Consul, modelo Frost Free 340L
+                  </div>
+                  <div class="bg-danger text-white fw-bold py-2 px-5 rounded bg-opacity-50 d-flex align-items-center">
+                    14/06/2025
+                  </div>
+                </div>
+              
+                <div class="d-flex gap-3 align-items-stretch">
+                  <div class="flex-grow-1 text-white fw-bold py-2 px-2 rounded d-flex align-items-center">
+                    Notebook da marca Lenovo, modelo Core i3 4GB
+                  </div>
+                  <div class="text-white fw-bold py-2 px-5 rounded d-flex align-items-center">
+                    12/07/2025
+                  </div>
+                </div>
+
+                <div class="d-flex gap-3 align-items-stretch">
+                    <div class="flex-grow-1 bg-danger text-white fw-bold py-2 px-2 rounded bg-opacity-50 d-flex align-items-center">
+                      Geladeira da marca Consul, modelo Frost Free 340L
+                    </div>
+                    <div class="bg-danger text-white fw-bold py-2 px-5 rounded bg-opacity-50 d-flex align-items-center">
+                      09/08/2025
+                    </div>
+                  </div>
+
+                  <div class="d-flex gap-3 align-items-stretch">
+                    <div class="flex-grow-1 text-white fw-bold py-2 px-2 rounded d-flex align-items-center">
+                      Notebook da marca Lenovo, modelo Core i3 4GB
+                    </div>
+                    <div class="text-white fw-bold py-2 px-5 rounded d-flex align-items-center">
+                      13/09/2025
+                    </div>
+                  </div>
+
+                  <div class="d-flex gap-3 align-items-stretch">
+                    <div class="flex-grow-1 bg-danger text-white fw-bold py-2 px-2 rounded bg-opacity-50 d-flex align-items-center">
+                      Televisor da marca AOC, modelo Smart 43
+                    </div>
+                    <div class="bg-danger text-white fw-bold py-2 px-5 rounded bg-opacity-50 d-flex align-items-center">
+                      11/10/2025
+                    </div>
+                  </div>
+
+                  <div class="d-flex gap-3 align-items-stretch">
+                    <div class="flex-grow-1 text-white fw-bold py-2 px-2 rounded d-flex align-items-center">
+                      Smartphone da marca Samsung, modelo Galaxy A55 128GB
+                    </div>
+                    <div class="text-white fw-bold py-2 px-5 rounded d-flex align-items-center">
+                      08/11/2025
+                    </div>
+                  </div>
+
+                  <div class="d-flex gap-3 align-items-stretch">
+                    <div class="flex-grow-1 bg-danger text-white fw-bold py-2 px-2 rounded bg-opacity-50 d-flex align-items-center">
+                      Ar condicionado da marca TCL, modelo 12CHA1 QUente e Frio, 12.000 btus
+                    </div>
+                    <div class="bg-danger text-white fw-bold py-2 px-5 rounded bg-opacity-50 d-flex align-items-center">
+                      13/12/2025
+                    </div>
+                  </div>
+
+                  <div class="d-flex gap-3 align-items-stretch">
+                    <div class="flex-grow-1 text-white fw-bold py-2 px-2 rounded d-flex align-items-center">
+                      Motocicleta 0KM da marca Yamaha, modelo Fluo125 ano de fabricação 2024, ano modelo 2025, cor azul
+                    </div>
+                    <div class="text-white fw-bold py-2 px-5 rounded d-flex align-items-center">
+                      11/01/2026
+                    </div>
+                  </div>
+                
+              </div>
+
+              
 
         <!-- Botão Fale Conosco corrigido -->
-        <div class="d-flex justify-content-end mt-5">
-            <a href="https://wa.me/seunumerodotelefone" class="btn btn-light btn-lg d-flex align-items-center justify-content-center fw-bold shadow">
-                <img src="/img/hotsite/WhatsApp.png" alt="WhatsApp" class="me-2" width="30"> Fale Conosco
+        <div class="d-flex justify-content-start mt-5  ">
+            <a href="https://api.whatsapp.com/send?phone=555194141188&text=Ol%C3%A1!%20Estou%20em%20seu%20site%20e%20gostaria%20de%20informa%C3%A7%C3%B5es" class="btn text-danger btn-light btn-lg d-flex align-items-center justify-content-center fw-bold shadow">
+                <img src="/img/hotsite/WhatsApp.png" alt="WhatsApp" class="me-2" width="50"> Faça o seu plano agora
             </a>
         </div>
     </div>
@@ -290,7 +362,7 @@
 
 <!-- Seção Banner em tela cheia -->
 <section class="container-fluid p-0">
-    <a href="https://www.exemplo.com" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=555194141188&text=Ol%C3%A1!%20Estou%20em%20seu%20site%20e%20gostaria%20de%20informa%C3%A7%C3%B5es" target="_blank">
         <img src="/img/folder/rodape.png" alt="Banner Promocional" class="img-fluid w-100">
     </a>
 </section>
@@ -345,7 +417,7 @@
 
         <!-- Contatos -->
         <div class="text-center">
-            <p class="mb-0">Telefone: (XX) XXXX-XXXX | WhatsApp: (XX) XXXXX-XXXX | Central de Atendimento Funerário 24h (XX) XXXXX-XXXX</p>
+            <p class="mb-0">Telefone: (51) 9414-1188 | WhatsApp: (51) 3036-9660 | Central de Atendimento Funerário: 24h 0800-002-9600</p>
         </div>
     </div>
 </footer>

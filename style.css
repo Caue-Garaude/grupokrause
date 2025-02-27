@@ -2,8 +2,10 @@
 
 /* 🟢 Primeira Seção com Imagem de Fundo */
 .imagem-hotsite {
-    background-image: url('/img/hotsite/bg.png'); 
-    background-repeat: no-repeat;
+    background-image: url('/img/hotsite/bg.png');
+    background-size: cover;
+    background-position: left center;
+    min-height: 100vh;
 }
 
 
@@ -158,6 +160,7 @@
     background-position: left center;
     min-height: 100vh;
 }
+
 
 
 
