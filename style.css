@@ -140,7 +140,7 @@
     background: linear-gradient(to bottom, #FFD700, #E6AC00); /* Gradiente de amarelo claro para escuro */
     border: none;
     border-radius: 25px; /* Bordas arredondadas */
-    padding: 15px 20px; /* Espaçamento interno */
+    padding: 15px 15px; /* Espaçamento interno */
     font-weight: bold;
     text-transform: uppercase;
     transition: all 0.3s ease;
