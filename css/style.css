@@ -60,12 +60,18 @@ h1, h2, h3, h4, h5 {
 .navbar-brand img {
     height: 60px;
 }
+.navbar-toggler {
+  
+    left: 50%;
+    transform: translateX(-90%);
+}
+
 
 /* Estilo dos Links do Navbar */
 .navbar-nav .nav-link {
     font-weight: bold;
     color: white !important;
-    padding: 10px 20px;
+    padding: 10px;
     transition: 0.3s;
 }
 
@@ -183,6 +189,19 @@ h1, h2, h3, h4, h5 {
     background-position: left center;
     min-height: 100vh;
 }
+.btn-whatsapp {
+    position: relative;
+    overflow: visible; /* Garante que a imagem pode ultrapassar o botão */
+}
+
+.btn-whatsapp img {
+    position: absolute;
+    right: -20px; /* Faz a imagem sair um pouco do botão */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 75px; /* Aumenta o tamanho da imagem */
+}
+
 
 
 
@@ -192,10 +211,12 @@ h1, h2, h3, h4, h5 {
     .section-premios .container {
         flex-direction: column;
         text-align: center;
+        padding-top: 40%
     }
 
     .premios-img {
         max-width: 90%;
+        
     }
     .section-premios .container {
         flex-direction: column;

@@ -15,33 +15,34 @@
 <!-- Primeira Seção com Imagem de Fundo -->
 <header class="imagem-hotsite">
     <nav class="navbar navbar-expand-lg">
-        <div class="container">
+        <div class="container position-relative">
             <!-- Logo Esquerda -->
             <a class="navbar-brand" href="#">
                 <img src="/img/hotsite/Logo1.png" alt="Logo Esquerda" class="navbar-logo">
             </a>
-
-            <!-- Botão Mobile -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    
+            <!-- Botão Mobile Centralizado -->
+            <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <!-- Links Centralizados -->
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav nav-links">
+    
+            <!-- Logo Direita (Sempre Visível) -->
+            <a class="navbar-brand position-absolute top-0 end-0" href="#">
+                <img src="/img/hotsite/Logo2.png" alt="Logo Direita" class="navbar-logo">
+            </a>
+    
+            <!-- Links do Navbar -->
+            <div class="collapse navbar-collapse justify-content-center mt-2 mt-lg-0" id="navbarNav">
+                <ul class="navbar-nav nav-links text-center">
                     <li class="nav-item"><a class="nav-link" href="#como-funciona">COMO FUNCIONA</a></li>
                     <li class="nav-item"><a class="nav-link" href="#premios">PRÊMIOS</a></li>
                     <li class="nav-item"><a class="nav-link" href="#ganhadores">GANHADORES</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/img/Regulamento Aprovado Vida Premiada Krause - SPA 04.039833 2025.pdf" download="Regulamento.pdf">REGULAMENTO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/img/Regulamento.pdf" download="Regulamento.pdf">REGULAMENTO</a></li>
                 </ul>
             </div>
-
-            <!-- Logo Direita -->
-            <a class="navbar-brand" href="#">
-                <img src="/img/hotsite/Logo2.png" alt="Logo Direita" class="navbar-logo">
-            </a>
         </div>
     </nav>
+    
 
     <!-- Sessão de Prêmios -->
     <section class="section-premios">
@@ -252,14 +253,14 @@
               
 
         <!-- Botão Fale Conosco corrigido -->
-        <div class="d-flex justify-content-start mt-5">
-            <a href="https://api.whatsapp.com/send?phone=555194141188&text=Ol%C3%A1!%20Estou%20em%20seu%20site%20e%20gostaria%20de%20informa%C3%A7%C3%B5es" 
-               class="btn text-danger btn-light btn-lg d-flex align-items-center justify-content-center fw-bold shadow gap-2">
-                Faça o seu plano agora  
-                <img src="/img/hotsite/WhatsApp.png" alt="WhatsApp" class="ms-2" width="60">
-            </a>
-        </div>
-        
+<div class="d-flex justify-content-start mt-5">
+    <a href="https://api.whatsapp.com/send?phone=555194141188&text=Ol%C3%A1!%20Estou%20em%20seu%20site%20e%20gostaria%20de%20informa%C3%A7%C3%B5es" 
+       class="btn btn-whatsapp text-danger btn-light btn-lg d-flex align-items-center justify-content-center fw-bold shadow gap-2 pe-5">
+        Faça o seu plano agora  
+        <img src="/img/hotsite/WhatsApp.png" alt="WhatsApp" class="ps-2">
+    </a>
+</div>
+
     </div>
 </section>
 
