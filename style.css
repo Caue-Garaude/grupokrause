@@ -1,27 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;700&display=swap');
 
-@font-face {
-    font-family: 'TT Norms Condensed';
-    src: url('Demo_Fonts/Fontspring-DEMO-tt_norms_pro_condensed_regular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'TT Norms Condensed';
-    src: url('Demo_Fonts/Fontspring-DEMO-tt_norms_pro_condensed_extrablack.otf') format('opentype');
-    font-weight: 900; /* ExtraBlack é muito pesado, então usa 900 */
-    font-style: normal;
-}
-
-/* Aplicando no projeto */
 body {
-    font-family: 'TT Norms Condensed', sans-serif;
-    font-weight: normal;
+    font-family: 'Atkinson Hyperlegible Next', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'TT Norms Condensed', sans-serif;
-    font-weight: 900;
+    font-family: 'Atkinson Hyperlegible Next', sans-serif;
+    font-weight: 700; /* Negrito */
+}
+
+p, a {
+    font-family: 'Atkinson Hyperlegible Next', sans-serif;
+    font-weight: 400; /* Normal */
 }
 /* 🟢 Primeira Seção com Imagem de Fundo */
 .imagem-hotsite {
