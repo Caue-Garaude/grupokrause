@@ -196,8 +196,6 @@ h1, h2, h3, h4, h5 {
 
     .premios-img {
         max-width: 90%;
-        margin-bottom: 20px;
-        margin-top: 80px;
     }
     .section-premios .container {
         flex-direction: column;
@@ -206,7 +204,6 @@ h1, h2, h3, h4, h5 {
 
     .premios-img {
         max-width: 100%;
-        margin-bottom: 20px;
     }
 
     .premios-img:nth-child(2) {
