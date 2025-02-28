@@ -1,5 +1,28 @@
 
+@font-face {
+    font-family: 'TT Norms Condensed';
+    src: url('Demo_Fonts/Fontspring-DEMO-tt_norms_pro_condensed_regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'TT Norms Condensed';
+    src: url('Demo_Fonts/Fontspring-DEMO-tt_norms_pro_condensed_extrablack.otf') format('opentype');
+    font-weight: 900; /* ExtraBlack é muito pesado, então usa 900 */
+    font-style: normal;
+}
+
+/* Aplicando no projeto */
+body {
+    font-family: 'TT Norms Condensed', sans-serif;
+    font-weight: normal;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'TT Norms Condensed', sans-serif;
+    font-weight: 900;
+}
 /* 🟢 Primeira Seção com Imagem de Fundo */
 .imagem-hotsite {
     background-image: url('/img/hotsite/bg.png');
