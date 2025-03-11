@@ -1,25 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;700&display=swap');
-
-body {
-    font-family: 'Atkinson Hyperlegible Next', sans-serif;
+.section-premios .container {
+    position: relative;
+    min-height: 70vh; /* Altura mínima ajustada */
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Atkinson Hyperlegible Next', sans-serif;
-    font-weight: 700; /* Negrito */
-}
-
-p, a {
-    font-family: 'Atkinson Hyperlegible Next', sans-serif;
-    font-weight: 400; /* Normal */
-}
 /* 🟢 Primeira Seção com Imagem de Fundo */
 .imagem-hotsite {
-    background-image: url('/img/hotsite/bg.png');
+    background-image: url('img/bg.png');
     background-size: cover;
     background-position: left center;
     min-height: 100vh;
 }
+
 
 
 .premios-img {
@@ -44,7 +35,6 @@ p, a {
     width: 100%;
     top: 0;
     left: 0;
-    padding: 10px 0;
 }
 
 .navbar-brand img {
@@ -61,7 +51,6 @@ p, a {
 .navbar-nav .nav-link {
     font-weight: bold;
     color: white !important;
-    padding: 10px;
     transition: 0.3s;
 }
 
@@ -174,7 +163,7 @@ p, a {
    
 }
 .section-premios2 {
-    background-image: url('/img/hotsite/bg.png');
+    background-image: url('img/bg.png');
     background-size: cover;
     background-position: left center;
     min-height: 100vh;
@@ -199,9 +188,8 @@ p, a {
 /* Responsividade */
 @media (max-width: 992px) {
     .section-premios .container {
-        flex-direction: column;
-        text-align: center;
-        padding-top: 40%
+        min-height: auto;
+        padding: 20% 0 10% 0; /* Espaçamento vertical ajustado */
     }
 
     .premios-img {
