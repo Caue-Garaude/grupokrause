@@ -44,11 +44,11 @@
     </nav>
     
 
-   <!-- Sessão de Prêmios -->
-<section class="container py-5">
-    <div class="row g-0 align-items-center"> <!-- Remove espaços entre colunas com g-0 -->
+<!-- Sessão de Prêmios -->
+<section class="container-fluid px-0"> <!-- Container fluido sem padding horizontal -->
+    <div class="row g-0 align-items-center">
         <!-- Imagem Esquerda -->
-        <div class="col-lg-6 pe-lg-0"> <!-- Remove padding direito -->
+        <div class="col-lg-6" style="transform: scale(1.05); margin-right: -2%;"> <!-- Aumento e sobreposição -->
             <img src="img/titulo.png" 
                  onclick="window.location.href='img/regulamento.pdf';"  
                  alt="Prêmio Esquerda" 
@@ -56,7 +56,7 @@
         </div>
         
         <!-- Imagem Direita -->
-        <div class="col-lg-6 ps-lg-0"> <!-- Remove padding esquerdo -->
+        <div class="col-lg-6" style="transform: scale(1.05); margin-left: -2%; z-index: 1;"> <!-- Aumento e sobreposição -->
             <img src="img/premios.png" 
                  alt="Prêmio Direita" 
                  class="img-fluid d-block w-100">
@@ -66,7 +66,7 @@
 
   <!-- Texto Pequeno abaixo da seção de prêmios -->
 <section class="py-3">
-    <div class="container text-center text-white">
+    <div class="container text-center text-white text-end">
         <p class="mb-0">Período de participação: 01/03/2025 a 31/12/2025. Sorteio realizado pela loteria federal</p>
         <p class="bm-0">Certificado de Autorização SPA/ME nº 04.039833/2025</p>
     </div>

@@ -1,3 +1,17 @@
+.container-fluid {
+    max-width: 98%; /* Reduz margens laterais */
+}
+
+.row {
+    margin: 0 -15px; /* Compensa padding das colunas */
+}
+
+.col-lg-6 {
+    padding: 0 !important; /* Remove qualquer padding residual */
+}
+
+
+
 .img-fluid {
     transition: transform 0.3s;
     position: relative;
