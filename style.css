@@ -1,7 +1,12 @@
-.section-premios .container {
+.img-fluid {
+    transition: transform 0.3s;
     position: relative;
-    min-height: 70vh; /* Altura mínima ajustada */
-   
+}
+
+/* Opcional: Efeito hover sutil */
+.img-fluid:hover {
+    transform: scale(1.02);
+    z-index: 1;
 }
 
 /* 🟢 Primeira Seção com Imagem de Fundo */
@@ -13,21 +18,6 @@
 }
 
 
-
-.premios-img {
-    max-width: 55%; /* Ajuste do tamanho das imagens */
-    height: auto; 
-    right: 15%;
-}
-
-
-/* Imagem da Direita um Pouco por Baixo da Esquerda */
-.premios-img:nth-child(2) {
-    position: relative;
-    max-width: 65%;
-    right: 14%;
-
-}
 
 /* Navbar Estilizado Dentro da Imagem */
 .navbar {
@@ -186,34 +176,3 @@
 
 
 
-/* Responsividade */
-@media (max-width: 992px) {
-    .section-premios .container {
-        min-height: auto;
-        padding: 15% 0 10% 0; /* Espaçamento vertical ajustado */
-    }
-
-    .premios-img {
-        position: static;
-        max-width: 100% !important;
-        transform: none;
-        margin: 0 auto;
-        display: block;
-        
-    }
-    .section-premios .container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .premios-img {
-        max-width: 100%;
-    }
-
-    .premios-img:nth-child(2) {
-        position: relative;
-        max-width: 100% !important;
-        right: 0;
-        top: 0;
-    }
-}
