@@ -1,6 +1,7 @@
 .section-premios .container {
     position: relative;
     min-height: 70vh; /* Altura mínima ajustada */
+   
 }
 
 /* 🟢 Primeira Seção com Imagem de Fundo */
@@ -15,7 +16,7 @@
 
 .premios-img {
     max-width: 55%; /* Ajuste do tamanho das imagens */
-    height: 100%;
+    height: auto; 
     right: 15%;
 }
 
